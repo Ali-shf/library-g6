@@ -1,0 +1,3 @@
+-- database: /media/alishf/New Volume/AliShahrabi/Downloads/Programming/Quera-bootcamp/Mentorship/Book1/db.sqlite3
+
+SELECT * FROM django_admin_log;
