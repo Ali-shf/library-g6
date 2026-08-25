@@ -34,11 +34,19 @@ dependencies = [
     { name = "ipython" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "ipython" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "django", specifier = ">=5.2.17" },
     { name = "ipython", specifier = ">=9.16.1" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "ipython", specifier = ">=9.16.1" }]
 
 [[package]]
 name = "colorama"
